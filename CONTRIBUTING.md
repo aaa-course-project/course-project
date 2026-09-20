@@ -1,3 +1,38 @@
+# Course Project Team Workflow
+
+本仓库用于课程小组开发，组内成员请遵循以下协作规则。
+
+## Branches
+
+禁止直接在 `main` 分支进行功能开发，只能自己按照约定从最新的`main` 分支新建分支。
+
+开始新任务前，先同步最新的 `main`
+
+任务完成后，将自己的分支推送到 GitHub，并创建 Pull Request
+
+不要擅自合并分支到 `main` 上面，所有PR都由组长审核并合并
+
+PR 成功合并后，删除已经完成的 feature/* 或 fix/* 分支
+
+提交代码前请填写清晰的提交说明，例如：
+
+git add .
+git commit -m "feature: 新增 xx 功能"
+git push
+
+新增功能分支命名格式：
+
+- `feature/xx`
+
+修复问题分支命名格式：
+
+- `fix/xx`
+
+修改文档分支命名格式：
+
+-`docs/xx`
+
+
 # Contributing to pi
 
 This guide exists to save both sides time.

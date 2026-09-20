@@ -32,6 +32,15 @@ git push
 
 -`docs/xx`
 
+优化分支命名格式：
+
+- `optimize/xx`
+
+当一次任务同时涉及多种改动类型时，可组合命名，例如：
+
+- `optimize+docs/xx`
+- `feature+docs/xx`
+
 
 # Contributing to pi
 
